@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // const [questions, setQuestions] = use
+  //  const ApiUrl = "https://opentdb.com/api.php?amount=10&category=12&difficulty=medium"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='quiz--container'>
+        <h1 className='quiz--title'>Quizzical</h1>
+        <p className='quiz--text'>Test your knowledge by clicking the button below to answer some questions.</p>
+        <button className='quiz--start'>Start quiz</button>
+    </main>
   );
 }
 
