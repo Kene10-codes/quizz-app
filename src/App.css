@@ -3,18 +3,21 @@
 }
 
 .quiz--container {
+  background-image: 
+   url("../public/images/blobtop.png"), 
+   url("../public/images/blobbottom.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right top;
+}
+
+.quiz--header {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: 
-   url("../public/images/blobtop.png"), 
-   url("../public/images/blobbottom.png");
-  background-repeat: no-repeat, no-repeat;
-  background-position: left bottom, right top;
-
+  margin: 0 auto;
 }
 
 .quiz--title {
@@ -46,5 +49,6 @@
   margin-top: 28px;
   border: none;
   font-family: 'Inter', sans-serif;
+  cursor: pointer;
 }
 
